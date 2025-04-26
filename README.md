@@ -98,5 +98,3 @@ Aplikasi dapat diakses di `http://localhost:3000`.
    
    **Solusi:**  
    Pemisahan logika perhitungan remunerasi dalam fungsi terpisah di backend untuk menjaga keterbacaan dan kejelasan kode.
-
----
