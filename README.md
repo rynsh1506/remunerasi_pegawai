@@ -1,5 +1,3 @@
-Tentu, berikut adalah contoh dokumentasi dalam format **markdown** yang bisa kamu salin:
-
 ---
 
 # Dokumentasi Aplikasi Pencatatan Tugas Pegawai
@@ -59,7 +57,6 @@ Alur data:
      Salin file `.env.example` menjadi `.env` dan sesuaikan konfigurasi database dan aplikasi sesuai kebutuhan.
      ```
      cp .env.example .env
-     php artisan key:generate
      ```
    - **Frontend:**  
      Pastikan variabel environment di `frontend/.env` telah sesuai dengan backend dan pengaturan API.
@@ -103,5 +100,3 @@ Aplikasi dapat diakses di `http://localhost:3000`.
    Pemisahan logika perhitungan remunerasi dalam fungsi terpisah di backend untuk menjaga keterbacaan dan kejelasan kode.
 
 ---
-
-Silakan salin teks di atas dan sesuaikan sesuai kebutuhan untuk dokumentasi proyek Anda. Semoga membantu!
