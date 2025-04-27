@@ -36,8 +36,8 @@ Alur data:
 
 1. **Clone Repository:**
    ```
-   git clone https://github.com/username/repository.git
-   cd repository
+   git clone https://github.com/rynsh1506/remunerasi_pegawai.git
+   cd remunerasi_pegawai.git
    ```
 
 2. **Instalasi Dependencies:**
