@@ -93,15 +93,14 @@ Aplikasi dapat diakses di `http://localhost:3000`.
    **Solusi:**  
    Implementasi login dan otorisasi di backend untuk membatasi akses ke data. Penggunaan token JWT untuk mengamankan sesi pengguna.
 
-3. Tampilan yang Menarik dan Intuitif:
-
-Menciptakan tampilan antarmuka yang memudahkan pengguna untuk berinteraksi dengan aplikasi, baik pegawai maupun admin. Desain yang intuitif akan membuat pengalaman pengguna lebih lancar dan menyenangkan, sehingga meningkatkan produktivitas.
-
-**Solusi:**
-  Menggunakan DaisyUI untuk menyediakan komponen UI yang konsisten dan responsif, memungkinkan aplikasi untuk tampil baik di berbagai perangkat.
-  
-  Menyediakan modals interaktif untuk menambah, mengedit, dan mengonfirmasi tindakan (seperti hapus tugas), menggunakan animasi Framer Motion untuk membuat transisi yang halus dan menarik.
-  
-  Mengimplementasikan paginasi pada tabel tugas untuk memastikan pengguna dapat dengan mudah menavigasi data tugas yang banyak.
-  
-  Menyediakan statistik visual untuk membantu pegawai melihat detail remunerasi yang telah dihitung.
+3. **Tampilan yang Menarik dan Intuitif:**
+   Menciptakan tampilan antarmuka yang memudahkan pengguna untuk berinteraksi dengan aplikasi. Desain yang intuitif akan membuat pengalaman pengguna lebih lancar dan menyenangkan, sehingga meningkatkan produktivitas.
+   
+   **Solusi:**
+    Menggunakan DaisyUI untuk menyediakan komponen UI yang konsisten dan responsif, memungkinkan aplikasi untuk tampil baik di berbagai perangkat.
+    
+    Menyediakan modals interaktif untuk menambah, mengedit, dan mengonfirmasi tindakan (seperti hapus tugas), menggunakan animasi Framer Motion untuk membuat transisi yang halus dan menarik.
+    
+    Mengimplementasikan paginasi pada tabel tugas untuk memastikan pengguna dapat dengan mudah menavigasi data tugas yang banyak.
+    
+    Menyediakan statistik visual untuk membantu pegawai melihat detail remunerasi yang telah dihitung.
