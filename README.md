@@ -68,12 +68,12 @@ Alur data:
    ```bash
    docker-compose up -d
    ```
-   Perintah ini akan menjalankan kontainer PostgresSQL di background. Anda dapat memverifikasi apakah kontainer berjalan dengan perintah:
+   - Perintah ini akan menjalankan kontainer PostgresSQL di background. Anda dapat memverifikasi apakah kontainer berjalan dengan perintah:
 
    ```bash
    docker-compose ps
    ```
-   Ini akan menampilkan daftar kontainer yang sedang berjalan.
+   - Ini akan menampilkan daftar kontainer yang sedang berjalan.
   
 6. **Migrate Database:**
    ```
