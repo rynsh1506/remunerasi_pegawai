@@ -39,7 +39,7 @@ Alur data:
    git clone https://github.com/rynsh1506/remunerasi_pegawai.git
    cd remunerasi_pegawai.git
    ```
-
+   
 2. **Instalasi Dependencies:**
    - Backend (Laravel):
      ```
@@ -61,12 +61,26 @@ Alur data:
    - **Frontend:**  
      Pastikan variabel environment di `frontend/.env` telah sesuai dengan backend dan pengaturan API.
 
-4. **Migrate Database:**
+
+4. **Setup Database:**
+   Pastikan Anda berada di root direktori proyek dan telah menginstall `Docker`, tempat file `docker-compose.yml` berada. Kemudian jalankan perintah berikut untuk memulai semua layanan yang terdefinisi di dalam file `docker-compose.yml`:
+
+   ```bash
+   docker-compose up -d
+   ```
+   Perintah ini akan menjalankan kontainer PostgresSQL di background. Anda dapat memverifikasi apakah kontainer berjalan dengan perintah:
+
+   ```bash
+   docker-compose ps
+   ```
+   Ini akan menampilkan daftar kontainer yang sedang berjalan.
+  
+6. **Migrate Database:**
    ```
    php artisan migrate
    ```
 
-5. **Jalankan Aplikasi:**
+7. **Jalankan Aplikasi:**
    - **Backend (Laravel):**
      ```
      php artisan serve
