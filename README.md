@@ -63,17 +63,18 @@ Alur data:
 
 
 4. **Setup Database:**
-   - Pastikan Anda berada di root direktori proyek dan telah menginstall `Docker`, tempat file `docker-compose.yml` berada. Kemudian jalankan perintah berikut untuk memulai semua layanan yang terdefinisi di dalam file `docker-compose.yml`:
+
+   Pastikan Anda berada di root direktori proyek dan telah menginstall `Docker`, tempat file `docker-compose.yml` berada. Kemudian jalankan perintah berikut untuk memulai semua layanan yang terdefinisi di dalam file `docker-compose.yml`:
 
    ```bash
    docker-compose up -d
    ```
-   - Perintah ini akan menjalankan kontainer PostgresSQL di background. Anda dapat memverifikasi apakah kontainer berjalan dengan perintah:
+   Perintah ini akan menjalankan kontainer PostgresSQL di background. Anda dapat memverifikasi apakah kontainer berjalan dengan perintah:
 
    ```bash
    docker-compose ps
    ```
-   - Ini akan menampilkan daftar kontainer yang sedang berjalan.
+   Ini akan menampilkan daftar kontainer yang sedang berjalan.
   
 5. **Migrate Database:**
    ```
