@@ -18,7 +18,7 @@ Alur data:
 ### Penjelasan Desain
 
 - **Mengapa menggunakan login?**  
-  Login digunakan untuk membatasi akses data berdasarkan pengguna. Setiap pengguna hanya bisa mengakses dan memodifikasi tugas yang mereka miliki, sementara admin dapat mengakses seluruh data tugas. Hal ini penting untuk menjaga keamanan dan privasi data pengguna.
+  Login digunakan untuk membatasi akses data berdasarkan pengguna. Setiap pengguna hanya bisa mengakses dan memodifikasi tugas yang mereka miliki. Hal ini penting untuk menjaga keamanan dan privasi data pengguna.
   
 - **Perhitungan Remunerasi:**  
   Remunerasi dihitung berdasarkan jam yang dihabiskan pada setiap tugas dan tarif per jam pegawai. Jika ada biaya tambahan, maka biaya tersebut juga dihitung dalam remunerasi.
@@ -88,13 +88,20 @@ Aplikasi dapat diakses di `http://localhost:3000`.
    Penggunaan algoritma yang membagi remunerasi berdasarkan jam yang dikerjakan oleh setiap pegawai.
 
 2. **Batasan Akses Data:**  
-   Memastikan bahwa hanya admin yang dapat melihat dan mengedit data seluruh pegawai, sementara pegawai hanya dapat mengakses dan mengedit data tugas mereka sendiri.
+   Memastikan bahwa pegawai hanya dapat mengakses dan mengedit data tugas mereka sendiri.
    
    **Solusi:**  
    Implementasi login dan otorisasi di backend untuk membatasi akses ke data. Penggunaan token JWT untuk mengamankan sesi pengguna.
 
-3. **Kompleksitas Perhitungan Remunerasi:**  
-   Perhitungan yang melibatkan jam kerja, tarif per jam, dan biaya tambahan bisa menjadi rumit, terutama dengan data yang besar.
-   
-   **Solusi:**  
-   Pemisahan logika perhitungan remunerasi dalam fungsi terpisah di backend untuk menjaga keterbacaan dan kejelasan kode.
+3. Tampilan yang Menarik dan Intuitif:
+
+Menciptakan tampilan antarmuka yang memudahkan pengguna untuk berinteraksi dengan aplikasi, baik pegawai maupun admin. Desain yang intuitif akan membuat pengalaman pengguna lebih lancar dan menyenangkan, sehingga meningkatkan produktivitas.
+
+**Solusi:**
+  Menggunakan DaisyUI untuk menyediakan komponen UI yang konsisten dan responsif, memungkinkan aplikasi untuk tampil baik di berbagai perangkat.
+  
+  Menyediakan modals interaktif untuk menambah, mengedit, dan mengonfirmasi tindakan (seperti hapus tugas), menggunakan animasi Framer Motion untuk membuat transisi yang halus dan menarik.
+  
+  Mengimplementasikan paginasi pada tabel tugas untuk memastikan pengguna dapat dengan mudah menavigasi data tugas yang banyak.
+  
+  Menyediakan statistik visual untuk membantu pegawai melihat detail remunerasi yang telah dihitung.
