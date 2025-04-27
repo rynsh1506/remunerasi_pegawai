@@ -64,7 +64,7 @@ Alur data:
 
 4. **Setup Database:**
 
-   Pastikan Anda telah menginstall `Docker` dan berada di root direktori proyek, tempat file `docker-compose.yml` berada. Kemudian jalankan perintah berikut untuk memulai semua layanan yang terdefinisi di dalam file `docker-compose.yml`:
+   Pastikan Anda telah menginstall `Docker` dan berada di root direktori `backend/` , tempat file `docker-compose.yml` berada. Kemudian jalankan perintah berikut untuk memulai semua layanan yang terdefinisi di dalam file `docker-compose.yml`:
 
    ```bash
    docker-compose up -d
