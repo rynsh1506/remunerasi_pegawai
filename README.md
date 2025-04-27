@@ -75,12 +75,12 @@ Alur data:
    ```
    - Ini akan menampilkan daftar kontainer yang sedang berjalan.
   
-6. **Migrate Database:**
+5. **Migrate Database:**
    ```
    php artisan migrate
    ```
 
-7. **Jalankan Aplikasi:**
+6. **Jalankan Aplikasi:**
    - **Backend (Laravel):**
      ```
      php artisan serve
